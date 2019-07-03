@@ -22,4 +22,8 @@ function path($dir = __DIR__){
     return $root;
 }
 
+
+$livingroomarray['furniture'] = array('Center Table','Side Table','Computer Table','Study Table','Foldable Chair','Non-Foldable Chair','Plastic Chair','Sofa 1 seater', 'Sofa 2 seater', 'Sofa 3 seater', 'Television Cabinet', 'Home Theater');
+$livingroomarray['electronics'] = array('Computer','TV','Inverter'); 
+
 ?>

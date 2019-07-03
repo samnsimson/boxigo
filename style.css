@@ -52,10 +52,19 @@
 .tab-title-icon{
 	font-size: 2em;
 }
-.nav-pills.city-pill .nav-item.nav-link.active{
+.nav-pills.green-pill .nav-link.active{
 	background-color: #00b382;
 }
-.city-pill .nav-item{
+
+.green-pill.items-pill .nav-link.active:after{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 100px 0 100px 173.2px;
+	border-color: transparent transparent transparent #00b383;
+}
+
+.green-pill .nav-link{
 	color: #00b382;
 	font-size: 1.2em;
 	padding: 1em 1.4em;
@@ -117,3 +126,5 @@ ul, ol {
     visibility: hidden;
     transition: .22s ease;
 }
+
+/*PRICE TABLE*/
